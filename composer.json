@@ -1,0 +1,32 @@
+{
+    "name": "matrixbrains/laravel-form-sync",
+    "description": "Sync Laravel validation rules & translations with frontend (React/Vue).",
+    "keywords": [
+        "laravel",
+        "react",
+        "validation",
+        "forms",
+        "sync"
+    ],
+    "homepage": "https://github.com/matrixbrains/laravel-form-sync",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vikram Mevasiya",
+            "email": "vikram.mevasiya@matrixbrains.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Matrixbrains\\FormSync\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Matrixbrains\\FormSync\\Providers\\FormSyncServiceProvider"
+            ]
+        }
+    }
+}

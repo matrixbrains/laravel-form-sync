@@ -8,8 +8,10 @@
         "forms",
         "sync"
     ],
-    "homepage": "https://github.com/matrixbrains/laravel-form-sync",
+    "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://github.com/matrixbrains/laravel-form-sync",
     "authors": [
         {
             "name": "Vikram Mevasiya",

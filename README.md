@@ -19,21 +19,10 @@
 
 ## Installation
 
-### 1. Install via Composer (Local / Dev)
+### 1. Install via Composer (Packagist)
 
 ```bash
-composer require matrixbrains/laravel-form-sync:@dev
-```
-
-> If using locally, add repository path to your `composer.json`:
-
-```json
-"repositories": [
-    {
-        "type": "path",
-        "url": "../path-to-laravel-form-sync"
-    }
-]
+composer require matrixbrains/laravel-form-sync
 ```
 
 ### 2. Publish Frontend Hooks

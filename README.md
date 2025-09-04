@@ -118,7 +118,7 @@ export default function RegisterForm() {
 
 ```ts
 import { useFormSync } from "@/composables/useFormSync";
-import userSchema from "../forms/user_request.json";
+import userSchema from "../forms/userrequest.json";
 
 export default {
   setup() {
